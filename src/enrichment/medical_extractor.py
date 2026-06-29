@@ -7,9 +7,6 @@ detect PHI from clinical / medical documents.
 Services used:
   - Amazon Comprehend Medical — DetectEntitiesV2, DetectPHI,
     InferICD10CM, InferRxNorm, InferSNOMEDCT
-
-Reference:
-  https://aws.amazon.com/blogs/machine-learning/part-2-intelligent-document-processing-with-aws-ai-services/
 """
 
 import logging

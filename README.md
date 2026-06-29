@@ -1,10 +1,6 @@
 # Intelligent Document Processing (IDP) with AWS AI Services
 
-A comprehensive Python project implementing an end-to-end **Intelligent Document Processing (IDP)** pipeline using AWS AI services, based on the following AWS blog posts:
-
-- [Part 1 – Data Capture, Classification, and Extraction](https://aws.amazon.com/blogs/machine-learning/part-1-intelligent-document-processing-with-aws-ai-services/)
-- [Part 2 – Enrichment, Queries, and Human Review (A2I)](https://aws.amazon.com/blogs/machine-learning/part-2-intelligent-document-processing-with-aws-ai-services/)
-- [IDP with Amazon Textract, Amazon Bedrock, and LangChain](https://aws.amazon.com/blogs/machine-learning/intelligent-document-processing-with-amazon-textract-amazon-bedrock-and-langchain/)
+A comprehensive Python project implementing an end-to-end **Intelligent Document Processing (IDP)** pipeline using AWS AI services.
 
 ---
 
@@ -166,13 +162,6 @@ Step-by-step Jupyter notebooks are in the `notebooks/` folder. Run them in order
 6. `06_human_review_a2i.ipynb` — A2I human review workflow
 
 ---
-
-## References
-
-- [AWS blog: IDP Part 1](https://aws.amazon.com/blogs/machine-learning/part-1-intelligent-document-processing-with-aws-ai-services/)
-- [AWS blog: IDP Part 2](https://aws.amazon.com/blogs/machine-learning/part-2-intelligent-document-processing-with-aws-ai-services/)
-- [AWS blog: IDP with Textract, Bedrock & LangChain](https://aws.amazon.com/blogs/machine-learning/intelligent-document-processing-with-amazon-textract-amazon-bedrock-and-langchain/)
-- [AWS Samples GitHub – aws-ai-intelligent-document-processing](https://github.com/aws-samples/aws-ai-intelligent-document-processing)
 
 ---
 

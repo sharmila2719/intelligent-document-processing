@@ -4,9 +4,6 @@ Phase 4 – Document Enrichment: Named Entity Recognition
 Use Amazon Comprehend built-in NER and custom entity recognizers
 to extract named entities (people, places, dates, custom business terms)
 from document text.
-
-Reference:
-  https://aws.amazon.com/blogs/machine-learning/part-2-intelligent-document-processing-with-aws-ai-services/
 """
 
 import csv

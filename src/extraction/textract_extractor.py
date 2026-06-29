@@ -7,9 +7,6 @@ Use Amazon Textract to extract:
   - Forms / key-value pairs (semi-structured)
   - Expense documents (invoices & receipts)
   - Identity documents (driver's licenses, passports)
-
-Reference:
-  https://aws.amazon.com/blogs/machine-learning/part-1-intelligent-document-processing-with-aws-ai-services/
 """
 
 import logging

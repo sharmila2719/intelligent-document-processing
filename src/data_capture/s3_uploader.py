@@ -3,9 +3,6 @@ Phase 1 – Data Capture
 ======================
 Upload documents to Amazon S3 for downstream IDP processing.
 Supports PDF, PNG, JPEG, TIFF formats.
-
-Reference:
-  https://aws.amazon.com/blogs/machine-learning/part-1-intelligent-document-processing-with-aws-ai-services/
 """
 
 import os

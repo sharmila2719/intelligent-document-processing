@@ -9,9 +9,6 @@ Example:
         {"Text": "What is the patient's date of birth?", "Alias": "DOB"},
         {"Text": "What is the total amount due?",        "Alias": "TOTAL"},
     ]
-
-Reference:
-  https://aws.amazon.com/blogs/machine-learning/part-2-intelligent-document-processing-with-aws-ai-services/
 """
 
 import logging

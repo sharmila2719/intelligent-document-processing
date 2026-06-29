@@ -4,9 +4,6 @@ Phase 4 – Document Enrichment: PII Detection and Redaction
 Detect personally identifiable information (PII) using Amazon Comprehend
 and redact it from document images using Amazon Textract bounding-box
 geometry.
-
-Reference:
-  https://aws.amazon.com/blogs/machine-learning/part-2-intelligent-document-processing-with-aws-ai-services/
 """
 
 import logging

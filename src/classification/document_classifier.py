@@ -3,9 +3,6 @@ Phase 2 – Document Classification
 ==================================
 Train and run an Amazon Comprehend custom multi-class document classifier
 to categorise documents (bank statement, invoice, receipt, etc.).
-
-Reference:
-  https://aws.amazon.com/blogs/machine-learning/part-1-intelligent-document-processing-with-aws-ai-services/
 """
 
 import csv

@@ -10,9 +10,6 @@ Implements Retrieval-Augmented Generation (RAG) Q&A over documents by:
   3. Storing embeddings in an in-memory FAISS vector store.
   4. Answering natural-language questions using a Bedrock LLM
      (default: Anthropic Claude 3 Sonnet) with retrieved context (RAG).
-
-Reference:
-  https://aws.amazon.com/blogs/machine-learning/intelligent-document-processing-with-amazon-textract-amazon-bedrock-and-langchain/
 """
 
 import logging

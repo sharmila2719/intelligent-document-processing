@@ -9,9 +9,6 @@ The workflow:
   2. If confidence < threshold, start a human review loop using A2I.
   3. Poll until reviewers complete the task.
   4. Retrieve the human-corrected output.
-
-Reference:
-  https://aws.amazon.com/blogs/machine-learning/part-2-intelligent-document-processing-with-aws-ai-services/
 """
 
 import json

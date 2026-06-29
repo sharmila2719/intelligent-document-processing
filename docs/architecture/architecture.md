@@ -102,6 +102,4 @@ Documents (PDF/PNG/JPEG/TIFF)
 
 ## References
 
-- [AWS blog: IDP Part 1](https://aws.amazon.com/blogs/machine-learning/part-1-intelligent-document-processing-with-aws-ai-services/)
-- [AWS blog: IDP Part 2](https://aws.amazon.com/blogs/machine-learning/part-2-intelligent-document-processing-with-aws-ai-services/)
-- [AWS blog: IDP with Textract, Bedrock & LangChain](https://aws.amazon.com/blogs/machine-learning/intelligent-document-processing-with-amazon-textract-amazon-bedrock-and-langchain/)
+- [AWS Samples GitHub – aws-ai-intelligent-document-processing](https://github.com/aws-samples/aws-ai-intelligent-document-processing)
