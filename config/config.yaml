@@ -1,0 +1,69 @@
+aws:
+  region: us-east-1
+  # Replace with your S3 bucket name
+  s3_bucket: your-idp-documents-bucket
+  # IAM Role ARN with permissions for Textract, Comprehend, Bedrock, A2I
+  iam_role_arn: arn:aws:iam::123456789012:role/IDPServiceRole
+
+# Amazon Textract
+textract:
+  # Max pages for async jobs
+  async_max_polling_attempts: 60
+  async_polling_interval_seconds: 5
+
+# Amazon Comprehend
+comprehend:
+  # Document classifier (trained custom model endpoint ARN)
+  # Fill after training the classifier in notebook 02
+  classifier_endpoint_arn: ""
+
+  # Custom NER entity recognizer endpoint ARN
+  # Fill after training the NER model in notebook 04
+  ner_endpoint_arn: ""
+
+  # Custom classifier training data S3 prefix
+  classifier_training_data_prefix: idp/training/classifier/
+
+  # Custom NER training data S3 prefix
+  ner_training_data_prefix: idp/training/ner/
+
+  # Document classes for classification
+  document_classes:
+    - bank-statement
+    - invoice
+    - receipt
+    - medical-record
+    - id-document
+
+# Amazon Bedrock
+bedrock:
+  # Claude 3 Sonnet model ID (change as needed)
+  model_id: anthropic.claude-3-sonnet-20240229-v1:0
+  # Amazon Titan text embedding model
+  embedding_model_id: amazon.titan-embed-text-v1
+  # Max tokens for LLM generation
+  max_tokens: 2048
+  temperature: 0.0
+
+# Amazon A2I (Augmented AI)
+a2i:
+  # Flow definition ARN — fill after creating A2I workflow
+  flow_definition_arn: ""
+  # Human task UI ARN (pre-built Textract UI)
+  human_task_ui_arn: ""
+  # Confidence threshold below which human review is triggered
+  confidence_threshold: 0.90
+
+# S3 prefixes
+s3_prefixes:
+  raw_documents: idp/raw/
+  classified: idp/classified/
+  extracted: idp/extracted/
+  enriched: idp/enriched/
+  reviewed: idp/reviewed/
+  output: idp/output/
+
+# Logging
+logging:
+  level: INFO
+  log_file: logs/idp_pipeline.log
